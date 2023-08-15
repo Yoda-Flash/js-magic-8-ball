@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+    position: relative;
+}
+
+#ball {
+    position: relative;
+    aspect-ratio: 9/16;
+}
+
+#answer {
+    position: absolute;
+    top: 225px;
+    left: 590px;
+    width: 8%;
+    color: black;
+    text-transform: uppercase;
+    display: none;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 25px 75px;
+    font-size: 20px;
+}
